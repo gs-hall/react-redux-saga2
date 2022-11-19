@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(231, 233, 236);
+}
+
+div .container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+div .new {
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.button {
+  background-color: rgb(77, 104, 169);
+  color: white;
+  padding: 5px 5px 5px 5px;
+  border-style: none;
+  border-radius: 3px;
+  margin: 5px 5px 5px 0;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+div .post {
+  background-color: white;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+div .clickable {
+  cursor: pointer;
+}
+
+div .form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+div .actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+a.secondary {
+  text-decoration: solid;
+  text-decoration-line:underline;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+.alert {
+  background-color: firebrick;
+}
+
+div .skeleton {
+  display: flex;
+  flex-direction: column;
+  line-height: 3;
+}
+
+div .error {
+  background-color: rgb(245, 149, 149);
+  display: flex;
+  align-items: center;
+}
+
+.error > span {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+div .service {
+  display: flex;
+  flex-direction: column;
+}
