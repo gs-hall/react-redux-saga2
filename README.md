@@ -1,2 +1,2 @@
-# netology-react-redux-saga2
+# react-redux-saga2
 Redux saga (list + detail page)
